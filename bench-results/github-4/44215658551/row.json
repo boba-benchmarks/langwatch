@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-18T01:34:58+00:00",
+ "suite": "langwatch",
+ "repo": "boba-benchmarks/langwatch",
+ "runner": "github-4",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/langwatch/actions/runs/44215658551",
+ "run_id": 44215658551,
+ "sha": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+ "conclusion": "success",
+ "wall_s": 550,
+ "queue_s": 5,
+ "job_s": 550,
+ "jobs": 1,
+ "vcpu_min": 36.7,
+ "billed_min": 10,
+ "usd": 0.12,
+ "tests": {
+  "passed": 32,
+  "failed": 0,
+  "flaky": 1,
+  "skipped": 8,
+  "failed_tests": [],
+  "flaky_tests": [
+   "front-door/passkeys.test.ts::adding a passkey in settings, the post-password offer, and the relying party::chromium"
+  ],
+  "files": 1
+ }
+}
