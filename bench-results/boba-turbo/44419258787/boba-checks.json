@@ -1,0 +1,12 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/langwatch/runs/135209562030",
+  "conclusion": "success",
+  "started_at": "2026-11-18T23:18:35Z",
+  "completed_at": "2026-11-18T23:20:03Z",
+  "title": "33 passed",
+  "summary": "### \u2705 All 33 tests passed in 1 min 28 s\n\nOn a03c35e \u00b7 3 min 43 s into the job \u00b7 8 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_21bd880418bac089/557218fa65effcddc2122d4ff62ef89a/html/index.html)\n\n1 credential your setup signed in with is masked wherever the report shows it. It only opens this job's own app.",
+  "text": null
+ }
+]
