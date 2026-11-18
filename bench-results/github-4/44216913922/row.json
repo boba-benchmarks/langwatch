@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-18T01:46:24+00:00",
+ "suite": "langwatch",
+ "repo": "boba-benchmarks/langwatch",
+ "runner": "github-4",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/langwatch/actions/runs/44216913922",
+ "run_id": 44216913922,
+ "sha": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+ "conclusion": "success",
+ "wall_s": 672,
+ "queue_s": 3,
+ "job_s": 672,
+ "jobs": 1,
+ "vcpu_min": 44.8,
+ "billed_min": 12,
+ "usd": 0.144,
+ "tests": {
+  "passed": 32,
+  "failed": 0,
+  "flaky": 1,
+  "skipped": 8,
+  "failed_tests": [],
+  "flaky_tests": [
+   "front-door/password-reset.test.ts::a completed reset shows Continue and lets me add a passkey in place::chromium"
+  ],
+  "files": 1
+ }
+}
