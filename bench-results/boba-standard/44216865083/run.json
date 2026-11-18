@@ -1,0 +1,13 @@
+{
+ "id": 44216865083,
+ "html_url": "https://github.com/boba-benchmarks/langwatch/actions/runs/44216865083",
+ "head_sha": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+ "head_branch": "main",
+ "event": "workflow_dispatch",
+ "status": "completed",
+ "conclusion": "success",
+ "created_at": "2026-11-18T01:34:41Z",
+ "updated_at": "2026-11-18T01:40:59Z",
+ "run_started_at": "2026-11-18T01:34:41Z",
+ "run_attempt": 1
+}

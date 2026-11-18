@@ -1,0 +1,22 @@
+[
+ {
+  "name": "Boba",
+  "url": "https://github.com/boba-benchmarks/langwatch/runs/134511343754",
+  "conclusion": "success",
+  "started_at": "2026-11-18T01:38:33Z",
+  "completed_at": "2026-11-18T01:40:46Z",
+  "title": "33 passed",
+  "summary": "### \u2705 All 33 tests passed in 2 min 13 s\n\nOn a03c35e \u00b7 5 min 56 s into the job \u00b7 8 skipped \u00b7 [Full report](https://www.coldtea.ai/api/boba/reports/bj_906faa3c1bb6d9a5/dce0bbbd4126b0c1c5286f37db4cdaaf/html/index.html)\n\n1 credential your setup signed in with is masked wherever the report shows it. It only opens this job's own app.\n\nBoba set up your app on this first run. Later pushes will reuse that setup and start faster.",
+  "text": null
+ },
+ {
+  "name": "Boba setup",
+  "url": "https://github.com/boba-benchmarks/langwatch/runs/134509028898",
+  "conclusion": "neutral",
+  "started_at": "2026-11-18T01:35:16Z",
+  "completed_at": "2026-11-18T01:35:16Z",
+  "title": "3 things to look at in your setup",
+  "summary": "None of these is one of this job's secrets, so they don't slow your next push. Look at each one:\n\n- Warning only: text that looks like a GitHub token in `/var/lib/docker/overlay2/5029707560f941068f5f242fd4dfadaa26ef361a644fbb7a907e01f1baba1d00/diff/root/.cache/uv/archive-v0/DKowpFQwDuf7WoLR/google/genai/tests/gaos/test_triggers_lifecycle.py` (outside package files)\n- Warning only: text that looks like a GitHub token in `/var/lib/docker/overlay2/5029707560f941068f5f242fd4dfadaa26ef361a644fbb7a907e01f1baba1d00/diff/root/.cache/uv/archive-v0/GznLIeewtcwrbUhY/scipy/optimize/_highspy/_core.cpython-311-x86_64-linux-gnu.so` (outside package files)\n- Warning only: text that looks like a GitHub token in `/home/runner/work/langwatch/langwatch/packages/redaction/src/__tests__/sessionReport.unit.test.ts` (outside package files)",
+  "text": null
+ }
+]
