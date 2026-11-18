@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-18T02:01:14+00:00",
+ "suite": "langwatch",
+ "repo": "boba-benchmarks/langwatch",
+ "runner": "boba-turbo",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/langwatch/actions/runs/44219692845",
+ "run_id": 44219692845,
+ "sha": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+ "conclusion": "success",
+ "wall_s": 199,
+ "queue_s": 9,
+ "job_s": 199,
+ "jobs": 1,
+ "vcpu_min": null,
+ "billed_min": null,
+ "usd": null,
+ "tests": {
+  "passed": 33,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 8,
+  "checks": 1,
+  "conclusions": [
+   "success"
+  ],
+  "failed_titles": []
+ }
+}
