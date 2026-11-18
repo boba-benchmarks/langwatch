@@ -1,0 +1,2532 @@
+{
+  "config": {
+    "argv": [
+      "/opt/hostedtoolcache/node/24.22.1/x64/bin/node",
+      "/home/runner/work/langwatch/langwatch/node_modules/.pnpm/@playwright+test@1.63.0/node_modules/@playwright/test/cli.js",
+      "test",
+      "--project=unit",
+      "--project=journey",
+      "--project=chromium",
+      "--reporter=list,json"
+    ],
+    "configFile": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/playwright.config.ts",
+    "rootDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/boba-benchmarks/langwatch/commit/a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+        "commitHash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+        "buildHref": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218357425"
+      },
+      "gitCommit": {
+        "shortHash": "a03c35e4",
+        "hash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+        "subject": "Add the benchmark workflow; remove the other workflows and Dependabot config",
+        "body": "Add the benchmark workflow; remove the other workflows and Dependabot config\n",
+        "author": {
+          "name": "ohansemmanuel",
+          "email": "ohansemmanuel@outlook.com",
+          "time": 1794952800000
+        },
+        "committer": {
+          "name": "ohansemmanuel",
+          "email": "ohansemmanuel@outlook.com",
+          "time": 1794952800000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/boba-benchmarks/langwatch/commit/a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "commitHash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "buildHref": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218357425"
+          },
+          "gitCommit": {
+            "shortHash": "a03c35e4",
+            "hash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "subject": "Add the benchmark workflow; remove the other workflows and Dependabot config",
+            "body": "Add the benchmark workflow; remove the other workflows and Dependabot config\n",
+            "author": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "committer": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "unit",
+        "name": "unit",
+        "testDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests",
+        "testIgnore": [
+          "**/seed.spec.ts"
+        ],
+        "testMatch": [
+          "/.*\\.unit\\.test\\.ts/"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/boba-benchmarks/langwatch/commit/a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "commitHash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "buildHref": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218357425"
+          },
+          "gitCommit": {
+            "shortHash": "a03c35e4",
+            "hash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "subject": "Add the benchmark workflow; remove the other workflows and Dependabot config",
+            "body": "Add the benchmark workflow; remove the other workflows and Dependabot config\n",
+            "author": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "committer": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "setup",
+        "name": "setup",
+        "testDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests",
+        "testIgnore": [
+          "**/seed.spec.ts"
+        ],
+        "testMatch": [
+          "/.*\\.setup\\.ts/"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/boba-benchmarks/langwatch/commit/a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "commitHash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "buildHref": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218357425"
+          },
+          "gitCommit": {
+            "shortHash": "a03c35e4",
+            "hash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "subject": "Add the benchmark workflow; remove the other workflows and Dependabot config",
+            "body": "Add the benchmark workflow; remove the other workflows and Dependabot config\n",
+            "author": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "committer": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "journey",
+        "name": "journey",
+        "testDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey",
+        "testIgnore": [
+          "**/seed.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 600000
+      },
+      {
+        "outputDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/boba-benchmarks/langwatch/commit/a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "commitHash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "buildHref": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218357425"
+          },
+          "gitCommit": {
+            "shortHash": "a03c35e4",
+            "hash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "subject": "Add the benchmark workflow; remove the other workflows and Dependabot config",
+            "body": "Add the benchmark workflow; remove the other workflows and Dependabot config\n",
+            "author": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "committer": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "sso",
+        "name": "sso",
+        "testDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/sso",
+        "testIgnore": [
+          "**/seed.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/boba-benchmarks/langwatch/commit/a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "commitHash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "buildHref": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218357425"
+          },
+          "gitCommit": {
+            "shortHash": "a03c35e4",
+            "hash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "subject": "Add the benchmark workflow; remove the other workflows and Dependabot config",
+            "body": "Add the benchmark workflow; remove the other workflows and Dependabot config\n",
+            "author": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "committer": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "licence",
+        "name": "licence",
+        "testDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/licence",
+        "testIgnore": [
+          "**/seed.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/boba-benchmarks/langwatch/commit/a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "commitHash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "buildHref": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218357425"
+          },
+          "gitCommit": {
+            "shortHash": "a03c35e4",
+            "hash": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+            "subject": "Add the benchmark workflow; remove the other workflows and Dependabot config",
+            "body": "Add the benchmark workflow; remove the other workflows and Dependabot config\n",
+            "author": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "committer": {
+              "name": "ohansemmanuel",
+              "email": "ohansemmanuel@outlook.com",
+              "time": 1794952800000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests",
+        "testIgnore": [
+          "**/journey/**",
+          "**/sso/**",
+          "**/licence/**",
+          "**/*.unit.test.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "deployment-mode.unit.test.ts",
+      "file": "deployment-mode.unit.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "refuses a journey whose required mode differs from the effective one",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "unit",
+              "projectName": "unit",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T01:50:34.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65f69f1289f5ebf8ed21-3aa9c7a5800edf616d60",
+          "file": "deployment-mode.unit.test.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "auth.setup.ts",
+      "file": "auth.setup.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "authenticate",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "setup",
+              "projectName": "setup",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5299,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test user created successfully\n"
+                    },
+                    {
+                      "text": "Signed in successfully. Current URL: http://localhost:5570/\n"
+                    },
+                    {
+                      "text": "Checking if org/project setup is needed...\n"
+                    },
+                    {
+                      "text": "getAll status: \u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "Orgs found: \u001b[33m0\u001b[39m | Projects: \u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "No project found — creating org + project via API...\n"
+                    },
+                    {
+                      "text": "initializeOrganization status: \u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "Org + project created successfully.\n"
+                    },
+                    {
+                      "text": "Navigating to settings to confirm setup...\n"
+                    },
+                    {
+                      "text": "Authentication state saved to: /home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/.auth/user.json\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T01:50:35.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17e3fe6f4d9d8bd79c6b-60f085b113a677673906",
+          "file": "auth.setup.ts",
+          "line": 28,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "journey/product-journey.spec.ts",
+      "file": "journey/product-journey.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "browser product journey",
+          "file": "journey/product-journey.spec.ts",
+          "line": 48,
+          "column": 6,
+          "specs": [
+            {
+              "title": "refuses a sign-up whose password confirmation does not match",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2027,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:50:41.465Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-b12dae26ec0666dfed4d",
+              "file": "journey/product-journey.spec.ts",
+              "line": 72,
+              "column": 7
+            },
+            {
+              "title": "signs up a fresh account through the real form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3394,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:50:43.860Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-688156b0f5fba498d30b",
+              "file": "journey/product-journey.spec.ts",
+              "line": 86,
+              "column": 7
+            },
+            {
+              "title": "names an organization, picks an intent, and lands on a project",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6337,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:50:47.265Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-90d9d2a8beb1c122bcc4",
+              "file": "journey/product-journey.spec.ts",
+              "line": 104,
+              "column": 7
+            },
+            {
+              "title": "adds OpenAI as a model provider",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "description": "OPENAI_API_KEY not set",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 130,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 1,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:50:53.631Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "description": "OPENAI_API_KEY not set",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 130,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-b9fcf868c535a96c6e8d",
+              "file": "journey/product-journey.spec.ts",
+              "line": 129,
+              "column": 7
+            },
+            {
+              "title": "creates an HTTP agent pointed at the echo agent",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5271,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:50:53.692Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-83bc360409fa9c91ab78",
+              "file": "journey/product-journey.spec.ts",
+              "line": 163,
+              "column": 7
+            },
+            {
+              "title": "creates a Custom (Code) evaluator",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5254,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:50:58.975Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-d54f6276813d130e327a",
+              "file": "journey/product-journey.spec.ts",
+              "line": 170,
+              "column": 7
+            },
+            {
+              "title": "creates an online evaluation that runs the evaluator on every trace",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "description": "OPENAI_API_KEY not set",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 195,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 1,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:04.240Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "description": "OPENAI_API_KEY not set",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 195,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-d0973fac494cb2c9df75",
+              "file": "journey/product-journey.spec.ts",
+              "line": 194,
+              "column": 7
+            },
+            {
+              "title": "names a suite, writes a scenario, and starts the run against the echo agent",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "description": "OPENAI_API_KEY not set",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 254,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 1,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:04.251Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "description": "OPENAI_API_KEY not set",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 254,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-02232d16501344f45327",
+              "file": "journey/product-journey.spec.ts",
+              "line": 253,
+              "column": 7
+            },
+            {
+              "title": "reads the run verdict and finds the run plan on the Results tab",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "description": "OPENAI_API_KEY not set",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 268,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:04.262Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "description": "OPENAI_API_KEY not set",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 268,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-593f747792e3ae839ef8",
+              "file": "journey/product-journey.spec.ts",
+              "line": 267,
+              "column": 7
+            },
+            {
+              "title": "finds the run's trace with the evaluator's result on it",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "description": "OPENAI_API_KEY not set",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 288,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:04.272Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "description": "OPENAI_API_KEY not set",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 288,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-7e61926e696724e0f2a1",
+              "file": "journey/product-journey.spec.ts",
+              "line": 287,
+              "column": 7
+            },
+            {
+              "title": "ends a run against an address that does not answer in a named failure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "description": "OPENAI_API_KEY not set",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 309,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:04.283Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "description": "OPENAI_API_KEY not set",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 309,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-f72c6a8b6faf1503a3bb",
+              "file": "journey/product-journey.spec.ts",
+              "line": 308,
+              "column": 7
+            },
+            {
+              "title": "refuses a run with no agent chosen",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8588,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:04.294Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-24c82c6d36c0c41d35d2",
+              "file": "journey/product-journey.spec.ts",
+              "line": 327,
+              "column": 7
+            },
+            {
+              "title": "creates a workflow from a template and a prompt with an identifier",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "journey",
+                  "projectName": "journey",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4990,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:12.894Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/journey/product-journey.spec.ts",
+                            "line": 0,
+                            "column": 0
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a9eaaa7dc0718c934f8-ac2c51a9529760b8a127",
+              "file": "journey/product-journey.spec.ts",
+              "line": 354,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "automations/automation-navigation.spec.ts",
+      "file": "automations/automation-navigation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "automation overview keeps activity and setup guidance",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4316,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T01:51:18.520Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "febafacba41253313acb-aeb26355174c6fc5fc74",
+          "file": "automations/automation-navigation.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "evaluations/documentation-link-style.spec.ts",
+      "file": "evaluations/documentation-link-style.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "empty pages link to their documentation and section carets stay dim",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5155,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T01:51:23.013Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dabb37dba526ca137a16-d32e013e9f909de4a452",
+          "file": "evaluations/documentation-link-style.spec.ts",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "evaluations/experiment-creation-menu.spec.ts",
+      "file": "evaluations/experiment-creation-menu.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "experiment creation keeps the SDK workflow discoverable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4024,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T01:51:28.185Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d15daae2e91da959275e-ade92d35da7411ea7ae2",
+          "file": "evaluations/experiment-creation-menu.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "evaluations-v3/http-agent-cell-rerun.spec.ts",
+      "file": "evaluations-v3/http-agent-cell-rerun.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Single Cell Re-execution",
+          "file": "evaluations-v3/http-agent-cell-rerun.spec.ts",
+          "line": 29,
+          "column": 6,
+          "specs": [
+            {
+              "title": "re-execute single cell via play button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "fixme",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/evaluations-v3/http-agent-cell-rerun.spec.ts",
+                        "line": 33,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:32.221Z",
+                      "annotations": [
+                        {
+                          "type": "fixme",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/evaluations-v3/http-agent-cell-rerun.spec.ts",
+                            "line": 33,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "338f90c77cef75d9b395-0d9432b06a49ca5425bd",
+              "file": "evaluations-v3/http-agent-cell-rerun.spec.ts",
+              "line": 38,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "evaluations-v3/http-agent-full-evaluation.spec.ts",
+      "file": "evaluations-v3/http-agent-full-evaluation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Full Evaluation Run with HTTP Agent Target",
+          "file": "evaluations-v3/http-agent-full-evaluation.spec.ts",
+          "line": 25,
+          "column": 6,
+          "specs": [
+            {
+              "title": "complete HTTP agent evaluation workflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "fixme",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/evaluations-v3/http-agent-full-evaluation.spec.ts",
+                        "line": 29,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:32.221Z",
+                      "annotations": [
+                        {
+                          "type": "fixme",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/evaluations-v3/http-agent-full-evaluation.spec.ts",
+                            "line": 29,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "30f9b1da8e7b6dc1d571-8de37347bd53b18a998c",
+              "file": "evaluations-v3/http-agent-full-evaluation.spec.ts",
+              "line": 34,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "front-door/license-contrast.test.ts",
+      "file": "front-door/license-contrast.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Activate-a-license button contrast",
+          "file": "front-door/license-contrast.test.ts",
+          "line": 66,
+          "column": 6,
+          "specs": [
+            {
+              "title": "is readable against its orange fill in light mode",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4373,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:32.278Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d1898d178b978c9a9562-70ff46edd0d225d2315e",
+              "file": "front-door/license-contrast.test.ts",
+              "line": 67,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "front-door/passkeys.test.ts",
+      "file": "front-door/passkeys.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Passkeys",
+          "file": "front-door/passkeys.test.ts",
+          "line": 20,
+          "column": 6,
+          "specs": [
+            {
+              "title": "adding a passkey in settings, the post-password offer, and the relying party",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 26462,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:51:36.664Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cdcdf32860c98639116f-e18e42acc2981850d41a",
+              "file": "front-door/passkeys.test.ts",
+              "line": 35,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "front-door/password-reset.test.ts",
+      "file": "front-door/password-reset.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Password reset completion",
+          "file": "front-door/password-reset.test.ts",
+          "line": 52,
+          "column": 6,
+          "specs": [
+            {
+              "title": "a completed reset shows Continue and lets me add a passkey in place",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3053,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:03.166Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "61a877281cf2be05b303-3f521eb05122bb41698d",
+              "file": "front-door/password-reset.test.ts",
+              "line": 74,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "front-door/signin-basics.test.ts",
+      "file": "front-door/signin-basics.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Sign-in basics",
+          "file": "front-door/signin-basics.test.ts",
+          "line": 20,
+          "column": 6,
+          "specs": [
+            {
+              "title": "a successful sign-in shows no error flash",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4361,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:06.239Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e7a2d38b87d5978f99f-406c2e6651376e5f3265",
+              "file": "front-door/signin-basics.test.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "signing out and back in several times never hits the rate limit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/front-door/signin-basics.test.ts",
+                        "line": 49,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7791,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:10.621Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/front-door/signin-basics.test.ts",
+                            "line": 49,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e7a2d38b87d5978f99f-aee6fb87a63e4419b349",
+              "file": "front-door/signin-basics.test.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "forgot-password link carries the typed address in the URL fragment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2257,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:18.424Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e7a2d38b87d5978f99f-7d0ec44577bdcf9fac0b",
+              "file": "front-door/signin-basics.test.ts",
+              "line": 79,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "front-door/signup-confirmation.test.ts",
+      "file": "front-door/signup-confirmation.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Sign-up without email",
+          "file": "front-door/signup-confirmation.test.ts",
+          "line": 33,
+          "column": 6,
+          "specs": [
+            {
+              "title": "asks for a password straight away and leaves the address unconfirmed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2782,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:20.694Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ad54f0a60c47348ba7a-bbd356a415200bd19f79",
+              "file": "front-door/signup-confirmation.test.ts",
+              "line": 46,
+              "column": 7
+            },
+            {
+              "title": "an account with no display name is called by its email, never 'null'",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19036,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:23.484Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ad54f0a60c47348ba7a-8cd89e3b2918c557382e",
+              "file": "front-door/signup-confirmation.test.ts",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "members/admin-creates-immediate-invite.spec.ts",
+      "file": "members/admin-creates-immediate-invite.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Invitation Approval - Admin Creates Immediate Invite",
+          "file": "members/admin-creates-immediate-invite.spec.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "admin invites a new member directly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4045,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:42.550Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "855ed2d53f7124fdabfd-9481f47f94aa9168f7a5",
+              "file": "members/admin-creates-immediate-invite.spec.ts",
+              "line": 29,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "navigation/shared-section-layout.spec.ts",
+      "file": "navigation/shared-section-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "complex product areas share one local navigation layout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4062,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T01:52:46.611Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8f62558f7e0913e1fe44-fe9764d1878e81abfe72",
+          "file": "navigation/shared-section-layout.spec.ts",
+          "line": 26,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "scenarios/scenario-editor.spec.ts",
+      "file": "scenarios/scenario-editor.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Scenario Editor",
+          "file": "scenarios/scenario-editor.spec.ts",
+          "line": 23,
+          "column": 6,
+          "specs": [
+            {
+              "title": "navigate to create form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5867,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:50.697Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                            "line": 24,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "147ccbcdad5a6deffe88-2bacb783d17b9746454e",
+              "file": "scenarios/scenario-editor.spec.ts",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "view scenario form fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13341,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:52:56.574Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                            "line": 24,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "147ccbcdad5a6deffe88-8e7c146daa201832cb0a",
+              "file": "scenarios/scenario-editor.spec.ts",
+              "line": 51,
+              "column": 7
+            },
+            {
+              "title": "scenario lifecycle: create, view in list, edit, and verify",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14599,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:53:09.926Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                            "line": 24,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "147ccbcdad5a6deffe88-6cfb4e375f46e2342ac3",
+              "file": "scenarios/scenario-editor.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "writes criteria one per line",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                        "line": 24,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13189,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:53:24.533Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-editor.spec.ts",
+                            "line": 24,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "147ccbcdad5a6deffe88-232fc0a53723a4403059",
+              "file": "scenarios/scenario-editor.spec.ts",
+              "line": 138,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "scenarios/scenario-execution.spec.ts",
+      "file": "scenarios/scenario-execution.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Scenario Execution",
+          "file": "scenarios/scenario-execution.spec.ts",
+          "line": 21,
+          "column": 6,
+          "specs": [
+            {
+              "title": "displays the results tab",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-execution.spec.ts",
+                        "line": 25,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2694,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:53:37.741Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-execution.spec.ts",
+                            "line": 25,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bc3748799e882c82e77-420701dc418020b3a51d",
+              "file": "scenarios/scenario-execution.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "saves and runs a scenario from the editor",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-execution.spec.ts",
+                        "line": 25,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14357,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:53:40.463Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "/home/runner/work/langwatch/langwatch/dev/tests/agentic-e2e/tests/scenarios/scenario-execution.spec.ts",
+                            "line": 25,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bc3748799e882c82e77-7e663ba2bbab4dd18515",
+              "file": "scenarios/scenario-execution.spec.ts",
+              "line": 54,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "scenarios/scenario-library.spec.ts",
+      "file": "scenarios/scenario-library.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Scenario Library",
+          "file": "scenarios/scenario-library.spec.ts",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "displays the scenarios tab with its panel",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2722,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:53:54.832Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5414ed622b64ff6d035f-4cc35ce14be7baff62cb",
+              "file": "scenarios/scenario-library.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "offers a New scenario button once a suite exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12745,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:53:57.569Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5414ed622b64ff6d035f-eeaaccc2741b1fbf3afd",
+              "file": "scenarios/scenario-library.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "redirects a saved simulations address to Agent Testing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2894,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:54:10.327Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5414ed622b64ff6d035f-335fa0470fedbeca298c",
+              "file": "scenarios/scenario-library.spec.ts",
+              "line": 47,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "settings/plans-comparison.spec.ts",
+      "file": "settings/plans-comparison.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Settings Plans Comparison",
+          "file": "settings/plans-comparison.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "member compares plans on the plans page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2164,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-18T01:54:13.233Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "320a256779164a7ed8a3-957f6db673e0cc7e26f1",
+              "file": "settings/plans-comparison.spec.ts",
+              "line": 10,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "smoke.spec.ts",
+      "file": "smoke.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "app loads after authentication",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1902,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T01:54:15.407Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4219922fea2e2bd3c691-aaf06ecd847745f63f6e",
+          "file": "smoke.spec.ts",
+          "line": 9,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-18T01:50:28.525Z",
+    "duration": 228944.789,
+    "expected": 33,
+    "skipped": 8,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
