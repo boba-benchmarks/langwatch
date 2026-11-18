@@ -1,0 +1,52 @@
+{
+ "at": "2026-11-18T23:29:08+00:00",
+ "suite": "langwatch",
+ "repo": "boba-benchmarks/langwatch",
+ "runner": "boba-turbo",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/boba-benchmarks/langwatch/actions/runs/44420543088",
+ "run_id": 44420543088,
+ "sha": "a03c35e4ab4edbb7c26d8aa72560c458e307e87d",
+ "conclusion": "success",
+ "wall_s": 223,
+ "queue_s": 11,
+ "job_s": 223,
+ "jobs": 1,
+ "job_max_s": 223,
+ "vcpu_min": 17.9,
+ "billed_min": null,
+ "usd": 0.018,
+ "tests": {
+  "passed": 33,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 8,
+  "checks": 1,
+  "conclusions": [
+   "success"
+  ],
+  "failed_titles": []
+ },
+ "boba_jobs": [
+  {
+   "boba_job_id": "bj_800e03df3960a2c2",
+   "tier": "turbo",
+   "warm": true,
+   "outcome": "done",
+   "forks": 5,
+   "start_plan_forks": 5,
+   "start_plan_reason": "time_earned",
+   "start_plan_granted": 4,
+   "start_plan_error": null,
+   "vcpu_minutes": 17.9,
+   "billed_vcpu_minutes": 17.9,
+   "billing_status": "reported",
+   "duration_ms": 224638,
+   "hosts": 1,
+   "split_declined_reason": null,
+   "tests_ms": 71958
+  }
+ ],
+ "price_basis": "billed"
+}
