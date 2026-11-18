@@ -1,0 +1,243 @@
+[
+ {
+  "id": 134514113080,
+  "name": "e2e (boba-standard)",
+  "html_url": "https://github.com/boba-benchmarks/langwatch/actions/runs/44218463958/job/134514113080",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-11-18T01:47:24Z",
+  "started_at": "2026-11-18T01:47:31Z",
+  "completed_at": "2026-11-18T01:53:32Z",
+  "labels": [
+   "coldtea-boba"
+  ],
+  "runner_name": "boba-134514113080-1",
+  "runner_group_name": "coldtea boba - langwatch",
+  "steps": [
+   {
+    "name": "Set up job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 1,
+    "started_at": "2026-11-18T01:47:32Z",
+    "completed_at": "2026-11-18T01:47:34Z"
+   },
+   {
+    "name": "Set up runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 2,
+    "started_at": "2026-11-18T01:47:34Z",
+    "completed_at": "2026-11-18T01:47:34Z"
+   },
+   {
+    "name": "Initialize containers",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 3,
+    "started_at": "2026-11-18T01:47:34Z",
+    "completed_at": "2026-11-18T01:47:55Z"
+   },
+   {
+    "name": "Generate a throwaway CREDENTIALS_SECRET",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 4,
+    "started_at": "2026-11-18T01:47:55Z",
+    "completed_at": "2026-11-18T01:47:55Z"
+   },
+   {
+    "name": "Checkout",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 5,
+    "started_at": "2026-11-18T01:47:55Z",
+    "completed_at": "2026-11-18T01:48:01Z"
+   },
+   {
+    "name": "Load the deployment mode",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 6,
+    "started_at": "2026-11-18T01:48:01Z",
+    "completed_at": "2026-11-18T01:48:01Z"
+   },
+   {
+    "name": "Run ./.github/actions/setup-pnpm-node",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 7,
+    "started_at": "2026-11-18T01:48:01Z",
+    "completed_at": "2026-11-18T01:48:04Z"
+   },
+   {
+    "name": "Install node-gyp (for node-pty postinstall)",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 8,
+    "started_at": "2026-11-18T01:48:04Z",
+    "completed_at": "2026-11-18T01:48:05Z"
+   },
+   {
+    "name": "Install dependencies",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 9,
+    "started_at": "2026-11-18T01:48:05Z",
+    "completed_at": "2026-11-18T01:48:08Z"
+   },
+   {
+    "name": "Set up Go",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 10,
+    "started_at": "2026-11-18T01:48:08Z",
+    "completed_at": "2026-11-18T01:48:09Z"
+   },
+   {
+    "name": "Prepare files",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 11,
+    "started_at": "2026-11-18T01:48:09Z",
+    "completed_at": "2026-11-18T01:48:14Z"
+   },
+   {
+    "name": "Install goose",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 12,
+    "started_at": "2026-11-18T01:48:14Z",
+    "completed_at": "2026-11-18T01:48:15Z"
+   },
+   {
+    "name": "Upgrade the databases",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 13,
+    "started_at": "2026-11-18T01:48:15Z",
+    "completed_at": "2026-11-18T01:48:54Z"
+   },
+   {
+    "name": "Run ./.github/actions/nx-cache",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 14,
+    "started_at": "2026-11-18T01:48:54Z",
+    "completed_at": "2026-11-18T01:48:55Z"
+   },
+   {
+    "name": "Build browser bundle",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 15,
+    "started_at": "2026-11-18T01:48:55Z",
+    "completed_at": "2026-11-18T01:49:01Z"
+   },
+   {
+    "name": "Unit-test the e2e guard",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 16,
+    "started_at": "2026-11-18T01:49:01Z",
+    "completed_at": "2026-11-18T01:49:02Z"
+   },
+   {
+    "name": "Start the api and worker",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 17,
+    "started_at": "2026-11-18T01:49:02Z",
+    "completed_at": "2026-11-18T01:49:12Z"
+   },
+   {
+    "name": "Run E2E tests on Boba",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 18,
+    "started_at": "2026-11-18T01:49:12Z",
+    "completed_at": "2026-11-18T01:53:24Z"
+   },
+   {
+    "name": "Run E2E tests",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 19,
+    "started_at": "2026-11-18T01:53:24Z",
+    "completed_at": "2026-11-18T01:53:24Z"
+   },
+   {
+    "name": "Upload JSON results",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 20,
+    "started_at": "2026-11-18T01:53:24Z",
+    "completed_at": "2026-11-18T01:53:24Z"
+   },
+   {
+    "name": "Upload test results",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 21,
+    "started_at": "2026-11-18T01:53:24Z",
+    "completed_at": "2026-11-18T01:53:26Z"
+   },
+   {
+    "name": "Upload test artifacts",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 22,
+    "started_at": "2026-11-18T01:53:26Z",
+    "completed_at": "2026-11-18T01:53:26Z"
+   },
+   {
+    "name": "Post Run ./.github/actions/nx-cache",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 40,
+    "started_at": "2026-11-18T01:53:26Z",
+    "completed_at": "2026-11-18T01:53:26Z"
+   },
+   {
+    "name": "Post Set up Go",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 41,
+    "started_at": "2026-11-18T01:53:26Z",
+    "completed_at": "2026-11-18T01:53:26Z"
+   },
+   {
+    "name": "Post Run ./.github/actions/setup-pnpm-node",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 42,
+    "started_at": "2026-11-18T01:53:26Z",
+    "completed_at": "2026-11-18T01:53:26Z"
+   },
+   {
+    "name": "Post Checkout",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 43,
+    "started_at": "2026-11-18T01:53:26Z",
+    "completed_at": "2026-11-18T01:53:26Z"
+   },
+   {
+    "name": "Stop containers",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 44,
+    "started_at": "2026-11-18T01:53:26Z",
+    "completed_at": "2026-11-18T01:53:28Z"
+   },
+   {
+    "name": "Complete job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 45,
+    "started_at": "2026-11-18T01:53:28Z",
+    "completed_at": "2026-11-18T01:53:28Z"
+   }
+  ]
+ }
+]
